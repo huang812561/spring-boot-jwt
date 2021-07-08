@@ -1,4 +1,5 @@
-
+server:
+    port:8081
 spring:
   application:
     name: spring-boot-jwt
@@ -26,3 +27,4 @@ mybatis:
   mapper-locations: classpath:/mappers/**/*.xml
   configuration:
     map-underscore-to-camel-case: true
+
